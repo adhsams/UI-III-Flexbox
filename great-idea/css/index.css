@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -97,14 +95,10 @@ header {
 }
 
 .image2 {
-	justify-content: left;
-	
+	width: 300px;
+	height: 300px;
 }
 /*First-Section class begins*/
-.middle-img {
-	margin: 5%;
-}
-
 h2 {
 	text-align: left;	
 }
@@ -152,9 +146,107 @@ footer {
 	
 	text-align: left;
 }
-
 /*Beginning of Services.html */
-.second-nav {
+div.second-nav {
 	display:flex;
+	flex-direction: row;
 }
+
+div.second-nav nav {
+	margin: 2%;
+	width: 60%;
+	justify-content: space-around;
+}
+
+.services-header-img {
+	margin: 2%;
+	width: 80%;
+}
+/*Start of Service-info class*/
+.services-info {
+	margin: 2.5%;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.digital-design {
+	margin: 2.5%;
+	padding: 2%;
+	border: 1px solid black;
+	background: #C6D5D2;
+}
+
+.ux-ui {
+	margin: 2.5%;
+	padding:2%;
+	border: 1px solid black;
+	background: #C6D5D2;	
+}
+
+.container2-digital {
+    display: flex;
+	flex-direction: row;
+}
+
+.digital-marketing {
+	margin: 2.5%;
+	padding:2%;
+	border: 1px solid black;
+	background: #C6D5D2;	
+}
+
+.web-development {
+	margin: 2.5%;
+	padding:2%;
+	border: 1px solid black;
+	background: #C6D5D2;	
+}
+
+.container3-ios {
+	display: flex;
+	flex-direction: row;
+}
+
+.ios-development {
+	margin: 2.5%;
+	padding:2%;
+	border: 1px solid black;
+	background: #C6D5D2;
+}
+
+.anddroid-development {
+	margin: 2.5%;
+	padding:2%;
+	border: 1px solid black;
+	background: #C6D5D2;
+}
+
+.container4-facts-about {
+	display: flex;
+	flex-direction: row;
+}
+.facts-about-services {
+	align-content: center;
+	margin: 2.5%;
+}
+
+ul {
+	text-align: left;
+	line-height: 1.5;
+}
+
+.services-info-img {
+	margin: 2.5%;
+	padding:2%;
+}
+
+footer {
+	text-align: center;
+	margin-top: 5%;
+}
+
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
