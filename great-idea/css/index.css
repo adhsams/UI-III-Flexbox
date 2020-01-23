@@ -107,6 +107,10 @@ header {
 	box-sizing: border-box;	
 }
 
+button:hover {
+	background-color: #8C8C8C;
+}
+
 section .middle-img {
 	width: 100%;
 }
@@ -168,7 +172,7 @@ div.second-nav nav {
 }
 
 .services-header-img {
-	margin: 2%;
+	margin: 5%;
 	width: 80%;
 }
 /*Start of Service-info class*/
@@ -254,7 +258,7 @@ ul {
 
 footer {
 	text-align: center;
-	margin-top: 5%;
+	margin: 5%;
 }
 /* This is to test my git bash*/
 
