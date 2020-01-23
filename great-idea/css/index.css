@@ -107,7 +107,7 @@ header {
 	box-sizing: border-box;	
 }
 
-button:hover {
+button:hover {	
 	background-color:#BFBFBF;
 }
 
@@ -169,7 +169,7 @@ img.services-header-img {
 /*Start of Service-info class*/
 .services-info {
 	width: 100%;
-	margin: 2.5%;
+	margin-bottom: 2.5%;
 }
 
 .container {
@@ -178,14 +178,14 @@ img.services-header-img {
 }
 
 .digital-design {
-	margin: 2.5%;
-	padding: 2%;
+	margin: 2.5% 1.5% 2.5% 0;
+	padding:2%;
 	border: 1px solid black;
 	background: #C6D5D2;
 }
 
 .ux-ui {
-	margin: 2.5%;
+	margin: 2.5% 0 2.5% 1.5%;
 	padding:2%;
 	border: 1px solid black;
 	background: #C6D5D2;	
@@ -197,14 +197,14 @@ img.services-header-img {
 }
 
 .digital-marketing {
-	margin: 2.5%;
+	margin: 2.5% 1.5% 2.5% 0;
 	padding:2%;
 	border: 1px solid black;
 	background: #C6D5D2;	
 }
 
 .web-development {
-	margin: 2.5%;
+	margin: 2.5% 0 2.5% 1.5%;
 	padding:2%;
 	border: 1px solid black;
 	background: #C6D5D2;	
@@ -216,17 +216,28 @@ img.services-header-img {
 }
 
 .ios-development {
-	margin: 2.5%;
+	margin: 2.5% 1.5% 2.5% 0;
 	padding:2%;
 	border: 1px solid black;
 	background: #C6D5D2;
 }
 
 .anddroid-development {
-	margin: 2.5%;
+	margin: 2.5% 0 2.5% 1.5%;
 	padding:2%;
 	border: 1px solid black;
 	background: #C6D5D2;
+}
+
+.button2 {
+	margin: 2% 0;
+	padding: 2%;
+	width: 35%;
+	border-radius: 5%;
+}
+
+.button2:hover {
+	background-color:#BFBFBF;	
 }
 
 .container4-facts-about {
