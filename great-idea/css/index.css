@@ -62,36 +62,35 @@ h1, h2, h3, h4, h5 {
 }
 /*Navigation section*/
 nav {
-	margin: 0 auto;
+	margin: 4% auto;
 	display:flex;
+	align-items: center;
 }
+
 .top {
 	margin: 0 3%;
 	text-align: center;
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
 
 img.logo {
 	margin: 0 4%;
 	font-size: 30px;
 	display: flex;
-}
+}/*Ends Navigation*/
 /*Header section begins*/
 header {
 	display:flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .innovations {
 	text-align: center;
-	font-size: 40px;
+	font-size: 60px;
 	width: 49%;
 	padding: 35px;
-	box-sizing: border-box;
-	
-}
-.circle-img {
-	display: flex;
+	box-sizing: border-box;	
 }
 
 .image2 {
