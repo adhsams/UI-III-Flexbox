@@ -128,24 +128,23 @@ div.about {
 	margin:3.5% 2.5%;
 	width: 45%;      
  }
-
- .bottom-section {
+#bottom-section {
 	display: flex;
- }
-		
-div.services {	
-	margin: 3.5% 2%;
+}
+div.services {
+	width: 28%;
+	margin: 3.5% 2.5%;;
  }
 
  div.product {
-		
-	margin:3.5% 2%;
+	width: 28%;
+	margin: 3.5% 2.5%;
  }
 
 div.vision {
-	 
-	 margin: 3.5% 2%;
-}	
+	width: 28%;
+	margin: 3.5% 2.5%;
+}
 
 .contact {
 	padding:2px;
