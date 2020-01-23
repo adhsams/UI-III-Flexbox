@@ -60,22 +60,36 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+Body {
+	margin: 0 10%;
+}
 /*Navigation section*/
 nav {
-	margin: 4% auto;
-	display:flex;
-	align-items: center;
+	width: 100%;
+	display:flex;			
 }
 
 .top {
-	margin: 0 3%;
-	text-align: center;
-	text-decoration: none;	
+	width: 90%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
-img.logo {
-	margin: 0 4%;
-	font-size: 30px;
+a {
+	color: #8C8C8C;
+	margin: 0 3%;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#040DBF;
+}
+
+.logo {
+	margin: 0 auto;
+	font-size: 40px;
 	display: flex;
 }/*Ends Navigation*/
 /*Header section begins*/
@@ -93,52 +107,49 @@ header {
 	box-sizing: border-box;	
 }
 
-.image2 {
-	width: 300px;
-	height: 300px;
+section .middle-img {
+	width: 100%;
 }
 /*First-Section class begins*/
+.first-section {
+	display: flex;
+	align-items: center;
+}
 h2 {
 	text-align: left;	
 }
 
 div.features {
-	margin: 5% 2%;
-	width: 40%;
-    display: inline-block;
-    
+	margin: 3.5% 2.5%;
+	width: 45%;     
 }
 
 div.about {
-	margin: 5% 2%;
-	width: 40%;
-    display: inline-block;
-    
+	margin:3.5% 2.5%;
+	width: 45%;      
  }
- div.services {
-	width: 25%;
-	display: inline-block;
-	margin: 5% 2%;
+
+ .bottom-section {
+	display: flex;
+ }
+		
+div.services {	
+	margin: 3.5% 2%;
  }
 
  div.product {
-	width: 25%;
-	display: inline-block;
-	margin: 5% 2%;
+		
+	margin:3.5% 2%;
  }
 
 div.vision {
-	 width: 25%;
-	 display: inline-block;
-	 margin: 5% 2%;
+	 
+	 margin: 3.5% 2%;
 }	
 
 .contact {
 	padding:2px;
 	margin: 2px;
-}
-body {
-	margin: 0 10%;
 }
 
 footer {
