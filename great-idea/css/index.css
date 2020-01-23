@@ -164,6 +164,7 @@ footer {
 /*Beginning of Services.html */
 
 img.services-header-img {
+	width: 100%;
 	margin: 3.5% 0;
 }
 /*Start of Service-info class*/
@@ -272,13 +273,19 @@ footer {
 		display: flex;
 		flex-direction: column-reverse;
 		align-items: center;
+		margin: 2% auto;
 	}
 }
 
 @media (max-width: 500px){
+	.logo {
+		margin: 2% auto;	 	
+    }
+}
+
+@media (max-width: 500px){
 	img.services-header-img {
-		width: 90%;
-	 	
+		width: 100%;	 	
     }
 }
 
@@ -300,5 +307,25 @@ footer {
 	.container3-ios {
 		display: flex;
 		flex-direction: column;
+	}	
+}
+
+@media (max-width: 500px) {
+	.container4-facts-about {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media (max-width: 500px) {
+	.services-info-img {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 500px) {
+	.button2:hover {
+		background-color:#BFBFBF;	
 	}	
 }
