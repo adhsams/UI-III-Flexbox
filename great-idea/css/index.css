@@ -108,7 +108,7 @@ header {
 }
 
 button:hover {
-	background-color: #8C8C8C;
+	background-color:#BFBFBF;
 }
 
 section .middle-img {
@@ -132,9 +132,11 @@ div.about {
 	margin:3.5% 2.5%;
 	width: 45%;      
  }
+
 #bottom-section {
 	display: flex;
 }
+
 div.services {
 	width: 28%;
 	margin: 3.5% 2.5%;;
@@ -160,23 +162,13 @@ footer {
 	text-align: left;
 }
 /*Beginning of Services.html */
-div.second-nav {
-	display:flex;
-	flex-direction: row;
-}
 
-div.second-nav nav {
-	margin: 2%;
-	width: 60%;
-	justify-content: space-around;
-}
-
-.services-header-img {
-	margin: 5%;
-	width: 80%;
+img.services-header-img {
+	margin: 3.5% 0;
 }
 /*Start of Service-info class*/
 .services-info {
+	width: 100%;
 	margin: 2.5%;
 }
 
