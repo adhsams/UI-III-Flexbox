@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 Body {
 	margin: 0 10%;
 }
-/*Navigation section*/
+/* NAVIGATION: .TOP/ A/ .LOGO */
 nav {
 	width: 100%;
 	display:flex;			
@@ -91,8 +91,8 @@ a:hover {
 	margin: 0 auto;
 	font-size: 40px;
 	display: flex;
-}/*Ends Navigation*/
-/*Header section begins*/
+}/* ENDS NAVIGATION: .TOP/ A/ .LOGO */
+/* HEADER: .INNOVATIONS/ BUTTON/ .IMAGES2 */
 header {
 	display:flex;
 	justify-content: space-between;
@@ -110,11 +110,8 @@ header {
 button:hover {	
 	background-color:#BFBFBF;
 }
-
-section .middle-img {
-	width: 100%;
-}
-/*First-Section class begins*/
+/*ENDS HEADER: INNOVATIONS/ BUTTON/ .IMAGES2*/
+/*.FIRST-SECTION: .FEATURES/ .ABOUT/ H2*/
 .first-section {
 	display: flex;
 	align-items: center;
@@ -132,7 +129,13 @@ div.about {
 	margin:3.5% 2.5%;
 	width: 45%;      
  }
-
+/*ENDS .FIRST-SECTION: .FEATURES/ .ABOUT/ H2*/
+/*SECTION: .MIDDLE-IMG */
+section .middle-img {
+	width: 100%;
+}
+/*ENDS SECTION: .MIDDLE-IMG*/
+/*.BOTTOM-SECTION: .SERVICES/ .PRODUCT/ .VISION*/
 #bottom-section {
 	display: flex;
 }
@@ -151,28 +154,34 @@ div.vision {
 	width: 28%;
 	margin: 3.5% 2.5%;
 }
-
+/*ENDS .BOTTOM-SECTION: .SERVICES/ .PRODUCT/ .VISION */
+/*CONTACT SECTION*/
 .contact {
 	padding:2px;
 	margin: 2px;
 }
-
+/*ENDS CONTACT SECTION*/
+/*FOOTER SECTION*/
 footer {
 	
 	text-align: left;
 }
-/*Beginning of Services.html */
+/*ENDS FOOTER SECTION AND END OF INDEX.HTML*/
 
+/*BEGINS SERVICES.HTML */
+/*.SECTION-HEADER-IMG*/
 img.services-header-img {
 	width: 100%;
 	margin: 3.5% 0;
 }
-/*Start of Service-info class*/
+/*ENDS .SECTION-HEADER-IMG*/
+/*.SERVICES-INFO SECTION*/
 .services-info {
 	width: 100%;
 	margin-bottom: 2.5%;
 }
-
+/*ENDS .SERVICES-INFO SECTION*/
+/*.CONTAINER SECTION: .DIGITAL-DESIGN/ .UX-UI*/
 .container {
 	display: flex;
 	flex-direction: row;
@@ -191,8 +200,9 @@ img.services-header-img {
 	border: 1px solid black;
 	background: #C6D5D2;	
 }
-
-.container2-digital {
+/*ENDS .CONTAINER SECTION: .DIGITAL-DESIGN/ .UX-UI*/
+/*.CONTAINER2: DIGITAL-MARKETING/ .WEB-DEVELOPMENT*/
+.container2 {
     display: flex;
 	flex-direction: row;
 }
@@ -210,8 +220,9 @@ img.services-header-img {
 	border: 1px solid black;
 	background: #C6D5D2;	
 }
-
-.container3-ios {
+/*ENDS .CONTAINER2: DIGITAL-MARKETING/ .WEB-DEVELOPMENT*/
+/*.CONTAINER3: .IOS-DEVELOPMENT/ .ANDROID-DEVELOPMENT/ .BUTTON2*/
+.container3 {
 	display: flex;
 	flex-direction: row;
 }
@@ -223,7 +234,7 @@ img.services-header-img {
 	background: #C6D5D2;
 }
 
-.anddroid-development {
+.android-development {
 	margin: 2.5% 0 2.5% 1.5%;
 	padding:2%;
 	border: 1px solid black;
@@ -240,8 +251,9 @@ img.services-header-img {
 .button2:hover {
 	background-color:#BFBFBF;	
 }
-
-.container4-facts-about {
+/*ENDS .CONTAINER3: .IOS-DEVELOPMENT/ .ANDROID-DEVELOPMENT/.BUTTON2*/
+/*.CONTAINER4: .FACTS-ABOUT-SERVICES/ UL/ .SERVICES-INFO-IMG */
+.container4 {
 	display: flex;
 	flex-direction: row;
 }
@@ -259,12 +271,14 @@ ul {
 	margin: 2.5%;
 	padding:2%;
 }
-
+/*ENDS .CONTAINER4: .FACTS-ABOUT-SERVICES/ UL/ .SERVICES-INFO-IMG*/
+/*FOOTER SECTION*/
 footer {
 	text-align: center;
 	margin: 5%;
 }
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*ENDS FOOTER SECTION AND END OF SERVICES.HTML*/
+/*BEGINS MEDIA QUERY*/
 @media (max-width: 500px) {
 	
 }
