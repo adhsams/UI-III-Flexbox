@@ -313,8 +313,12 @@ footer {
 	}/*ENDS NAV*/
 
 	.logo {
-		margin: 2% auto;	 	
-    }/*ENDS .LOGO*/
+		margin: 3% auto;	 	
+	}/*ENDS .LOGO*/
+	
+	.top {
+		justify-content: space-evenly;
+	}
 
 	img.services-header-img {
 		width: 100%;	 	
@@ -323,17 +327,41 @@ footer {
 	.container {
 		display: flex;
 		flex-direction: column;
-	}/*ENDS .CONTAINER */
+	}/*ENDS .CONTAINER */	
+
+	.digital-design {
+		margin: 4% 0;
+	}/*ENDS .DIGITAL-DESIGN*/
+
+	.ux-ui {
+		margin: 4% 0;
+	}/*ENDS .UX-UI*/	
 
 	.container2 {
 		display: flex;
 		flex-direction: column;
 	}/*ENDS .CONTAINER2*/
 
+	.digital-marketing {
+		margin: 4% 0;
+	}/*ENDS .DIGITAL-MARKETING*/
+
+	.web-development {
+		margin: 4% 0;
+	}/*ENDS .WEB-DEVELOPMENT*/	
+
 	.container3 {
 		display: flex;
 		flex-direction: column;
 	}/*ENDS .CONTAINER3*/	
+
+	.ios-development {
+		margin: 4% 0;
+	}/*ENDS .IOS-DEVELOPMENT*/
+
+	.android-development {
+		margin: 4% 0;
+	}/*ENDS .ANDROID-DEVELOPMENT*/	
 
 	.container4 {
 		display: flex;
@@ -341,11 +369,6 @@ footer {
 		align-items: center;
 	}/*ENDS .CONTAINER4*/
 
-	div.facts-about-services {
-		display:flex;
-		
-	}
-	
 	.services-info-img {
 		margin: 0 auto;
 	}/*ENDS .SERVICES-INFO-IMG*/
